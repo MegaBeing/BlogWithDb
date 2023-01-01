@@ -1,0 +1,60 @@
+#blogImg{
+    width: 250px;
+    height: 266px;
+    position: relative;
+    bottom: 350px;
+    left: 1600px;
+    border-color: aliceblue;
+    border-width: 20px;
+    border-style:solid;
+    box-shadow: 10px 10px 5px #191a1a;
+}
+#creator{
+    color:rgb(179, 179, 168);
+    position: relative;
+    bottom: 617px;
+    left: 1461px;
+    font-size: 20px;
+    text-shadow: 2px 2px 5px rgba(12, 12, 12, 0.416);
+}
+#last_updated{
+    font-size: 20px;
+    position: relative;
+    left: -208px;
+    top: 36px;
+    text-shadow: 2px 2px 5px rgba(12, 12, 12, 0.416);
+    color: azure;
+}
+h1{
+    background: #0665be;
+    padding: 20px;
+    height: 400px;
+    position: relative; 
+    text-shadow: 2px 2px 5px rgba(12, 12, 12, 0.416);
+    font-size:60px;
+}
+#heading{
+    text-align: center;
+    position: relative;
+    left: 115px;
+    top: 114px;
+    display: block;
+    width: 1000px;
+}
+#firstPara{
+    
+}
+#post{
+    color:black;
+    position: relative;
+    left: 1600px;
+    font-size:20px;
+}
+#paragraph{
+    font-size: 30px;
+    width:1350px;
+    position: relative;
+    bottom:150px;
+    left:116px;
+    display: inline-block;
+}

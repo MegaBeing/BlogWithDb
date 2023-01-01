@@ -1,0 +1,17 @@
+body{
+    background-image: url('https://w.wallhaven.cc/full/kx/wallhaven-kx98xd.jpg');
+}
+#title{
+    position: relative;
+    top: 20em;
+    left:51em;
+}
+h1{
+    font-size: 2cm;
+    color:#b0b9c0;
+}
+h2{
+    position: relative;
+    right: 44px;
+    color: #6bdab5;
+}
