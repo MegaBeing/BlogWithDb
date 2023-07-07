@@ -1,3 +1,86 @@
+
+# Blog Website
+
+- Built with Django, HTML, CSS, and SQLite
+- Clean and intuitive design with easy navigation
+- Robust backend powered by Django framework
+- Scalable and efficient for managing projects and user interactions
+- Integrated security features for data protection
+- Lightweight and cross-platform compatible SQLite database
+- Stores project details like descriptions, images, and contributors
+- User accounts for contributing and updating project documentation
+- Secure registration and login processes
+- Explore projects by categories, tags, or keywords
+- Collaborative platform for sharing and documenting projects
+- Valuable resource for individuals and teams
+- Markdown format for easy readability and editing
+
+Join me in exploring and contributing to our ever-growing repository of projects. Let's make documentation visually appealing and effortless with our Project Documentation Blog.
+
+
+## Installation
+
+Python Environment
+
+### Linux
+
+```bash
+    sudo apt install python3
+    sudo apt install pip
+```
+_Virtual Environment_  
+
+[Install Anaconda](https://docs.anaconda.com/free/anaconda/install/linux/)  
+**OR**  
+[Install conda](https://docs.conda.io/projects/conda/en/latest/user-guide/install/linux.html)
+
+**Step 1**  
+
+Install Django : [Documentation](https://docs.djangoproject.com/en/4.2/)
+```bash
+conda create --name djangoenv
+conda activate djangoenv
+```
+**Step 2**  
+Change Directory to [**my_site**](https://github.com/MegaBeing/BlogWithDb/tree/master/my_site)  
+
+**Commands to create Database and its Tables**  
+*Python Version* (less than 3)
+```bash
+python manage.py makemigrations
+python manage.py migrate
+```
+*Python Version* (greater than 3)
+```bash
+python3 manage.py makemigrations
+python3 manage.py migrate
+```
+if Step 2 doesn`t work 
+```bash
+cd blog/
+cd migrations/
+rm 000*
+```  
+Re-run the above commands in Step 2  
+  
+**Step 3**  
+Start the Server
+```bash
+python3 manage.py runserver
+```
+**OR**
+```bash
+python manage.py runserver
+```
+
+
+
+
+
+
+
+
+    
 # 💫 About Me:
 I'm a Software developer who likes to work on the profound applications on Machine Learning, Deep Learning, etc
 
